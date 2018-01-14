@@ -1,0 +1,839 @@
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+ @font-face {
+ 	font-family:"Open Sans Light";
+ 	src:url("OpenSans-Light.eot?") format("eot"),
+ 	url("OpenSans-Light.woff") format("woff"),
+ 	url("OpenSans-Light.ttf") format("truetype"),
+ 	url("OpenSans-Light.svg#OpenSans-Light") format("svg");
+ 	font-weight:normal;
+ 	font-style:normal;
+ }
+
+
+	body
+	{
+		margin:0px;
+		padding:0px;
+		font-family:"Open Sans Light";
+		font-size: 14px;
+		border: none;
+		cursor: auto;
+		line-height: 23px;
+		outline: 0;
+		vertical-align: top;
+		color:#404040;
+		
+	} 
+
+	/*========== DEFAULT BROWSER STYLE==========*/
+	/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+	article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video,main{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+	a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, body,center, canvas, caption, cite, code, command,datalist, dd, del, details, dfn, dl, div, dt, em, embed,fieldset, figcaption, figure, font, footer, form, header, hgroup, html,i, iframe, img, ins,kbd, keygen, legend, li, meter,nav,object, ol, output, pre, progress,q, s, samp, section, small,source, strike, strong, sub, sup,table, tbody, tfoot, thead, th, tr, tdvideo, tt,u, ul, var{
+	    /*background: transparent;*/
+	    border: 0 none;
+	    margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+	    vertical-align: top;
+	}
+	ul,ol
+	{
+		list-style: none;
+	}
+	q 
+	{
+		quotes: none;
+	}
+	b
+	{
+		font-weight: bold;
+	}
+
+	table, table td { 
+		padding:0;
+		border-collapse:collapse;
+	}
+
+	img{
+		vertical-align:top; 
+	}
+
+	input:focus, textarea:focus, keygen:focus, select:focus {
+		outline-offset:0px;
+	}
+
+	input,button{
+		outline: none;
+		border:0;
+	}
+
+	button::-moz-focus-inner{
+		border:0;
+	}
+	html,body{
+		height:100%;
+	}
+	.table > tbody > tr > td{
+		padding:5px;
+		vertical-align: middle;
+	}
+	.table > tbody > tr > th{
+		padding:15px;
+	}
+
+	h1,h2,h3,h4,h5,h6
+	{
+		font-family:"Open Sans Light";
+		line-height: 30px;
+	}
+	/*==========END DEFAULT BROWSER STYLE========== */
+	             
+
+
+	/*==========       BASIC CLASSES     ==========*/
+
+	/* ========================================= */
+	/* =============SPACE CLASSES============== */
+	/* ========================================= */
+	.space5{
+		margin-top: 5px;
+	}
+	.space10{
+		margin-top: 10px;
+	}
+	.space15{
+		margin-top: 15px;
+	}
+	.space20{
+		margin-top: 20px;
+	}
+	.space25{
+		margin-top: 25px;
+	}
+	.space30{
+		margin-top: 30px;
+	}
+	.space40{
+		margin-top: 40px;
+	}
+	.space50{
+		margin-top: 50px;
+	}
+	.space60{
+		margin-top: 60px;
+	}
+	.space70{
+		margin-top: 70px;
+	}
+	.space80{
+		margin-top: 80px;
+	}
+	.space100{
+		margin-top: 100px;
+	}
+
+
+	/* ========================================= */
+	/* =============PADDING CLASSES============== */
+	/* ========================================= */
+	.padleft0{
+		padding-left: 0px !important;
+	}
+	.padright0{
+		padding-right: 0px !important;
+	}
+	.padtop0{
+		padding-top: 0px !important;		
+	}
+	.padbottom0{
+		padding-bottom: 0px !important;		
+	}
+	.padding10{
+		padding: 10px;
+	}
+	.padding15{
+		padding: 10px;
+	}
+	.padding20{
+		padding: 10px;
+	}
+	.padding25{
+		padding: 10px;
+	}
+	.padding30{
+		padding: 10px;
+	}
+
+
+	/* ========================================= */
+	/* =============MARGIN CLASSES============== */
+	/* ========================================= */
+	.mbtm0{
+		margin-bottom: 0px;
+	}
+	.mtop0{
+		margin-top:0px;
+	}
+	.mtop10{
+		margin-top:10px;
+	}
+	.mbtm10{
+		margin-bottom:10px;
+	}
+	.mleft10{
+		margin-left:10px;
+	}
+	.mright10{
+		margin-right:10px;
+	}
+	.nomargin
+	{
+		margin: 0px;
+	}
+	.mauto img{
+		margin: 0px auto !important;
+		width: 100%  !important;
+	}
+	.mautomargin{
+		margin: 0px auto !important;
+	}
+
+
+	/* ========================================= */
+	/* =============COLOR CLASSES============== */
+	/* ========================================= */
+
+	.blueclr
+	{
+		color:#00aeef;
+	}
+		.bgblueclr
+	{
+		background-color: #00aeef;
+	}
+	.lblueclr
+	{
+		color: #26b4f0;
+	}
+	.whiteclr
+	{
+		color: #fff;
+	}
+	.blackclr{
+		color: #000 !important;
+	}
+
+
+	.orangeclr
+	{
+		color:#ed9c91;
+	}
+	.coffeeclr{
+		color: #21262E;
+	}
+
+	.darkorangeclr
+	{
+	   color:#dd5e4c;
+	}
+	.backwhite{
+	background: #fff !important;
+	color: #00aeef !important;
+	}
+	.backwhite:hover
+	{
+			color: #00aeef !important;
+	}
+	.greyclr{
+		color: #8f8a85 !important;
+	}
+	.backorange{
+		background:#ed9c91;
+	}
+
+	.backgrey{
+		background:#8f8a85;
+	}
+
+
+	/* ========================================= */
+	/* =============FORM / INPUT / SELECT CLASSES============== */
+	/* ========================================= */
+	.input-group-btn > .btn:hover,
+	.input-group-btn > .btn:focus,
+	.input-group-btn > .btn:active{
+		z-index: 0 ;
+	}
+	.form-control{
+		border-radius: 0px !important;
+		box-shadow: none;
+		background: #fff;
+		color: #493f37;
+		border-radius: 3px;
+		border-color: transparent;
+/*		text-align: right;*/
+		/*border-width: 1px;*/
+	}
+
+	textarea{
+		background: #fff !important;
+	}
+	.form-control:focus{
+		box-shadow:none !important;
+		outline: none;
+		border-color: #493f37; 
+	}
+	.capital
+	{
+		text-transform: uppercase;
+	}
+
+	
+
+	/* ========================================= */
+	/* =============FONT SIZE CLASSES============== */
+	/* ========================================= */
+	.fsize8{
+		font-size: 8px;
+	}
+	.fsize10{
+		font-size: 10px;
+	}
+	.fsize12{
+		font-size: 12px !important;
+	}
+	.fsize13{
+		font-size: 13px;
+	}
+	.fsize14 {
+  font-size: 14.6px !important;
+}
+	.fsize16{
+		font-size: 16px;
+	}
+	.fsize18{
+		font-size: 18px
+	}
+	.fsize20
+	{
+		font-size: 20px;
+	}
+	.fsize22{
+		font-size: 22px;
+	}
+	.fsize24{
+		font-size: 24px;
+	}
+	.fsize26{
+		font-size: 26px;
+	}
+	.fsize28{
+		font-size: 28px;
+	}
+	.fsize30{
+		font-size: 30px !important;
+	}
+	.fsize36{
+		font-size: 36px;
+	}
+	.fsize40{
+		font-size: 40px;
+	}
+	.fsize50{
+		font-size: 50px;
+	}
+	.fsize60{
+		font-size: 60px;
+	}
+.fsize120 {
+  font-size: 120px;
+}
+	/* ========================================= */
+	/* =============FONT WEIGHT CLASSES============== */
+	/* ========================================= */
+
+	.f300{
+		font-weight: 300;
+	}
+	.f400{
+		font-weight: 400;
+	}
+	.f500{
+		font-weight: 500;
+	}
+	.f600{
+		font-weight: 600;
+	}
+	.f700{
+		font-weight: 700;
+	}
+	.f800{
+		font-weight: 800;
+	}
+
+	/* ========================================= */
+	/* =============BUTTON CLASSES============== */
+	/* ========================================= */
+	 button,.btn{
+	 	border-radius: 0px;
+	 	color: ;
+		-webkit-transition:all 0.3s linear;
+		-moz-transition:all 0.3s linear;
+		-ms-transition:all 0.3s linear;
+	}
+	button:hover{
+		color: #fff !important;
+		-webkit-transition:all 0.3s linear;
+		-moz-transition:all 0.3s linear;
+		-ms-transition:all 0.3s linear;
+	}
+	.blockbtn {
+/*  border-bottom: 1px solid #00aeef;*/
+  border-radius: 40px;
+  padding: 13px 61px;
+  font-size: 16px;
+  box-shadow: none;
+  font-weight: 700;
+  background: #00aeef;
+  color: #fff ;
+}
+	.blockbtn:hover{
+		background: #00aeef;
+		color: #fff ;
+	}
+	.outlinebtn{
+		border:1px solid #fff;
+		background: transparent;
+		color: #ed9c91;
+		padding: 10px 20px;
+	}
+	.outlinebtn:hover{
+		border:;
+		background: ;
+	}
+
+	/* ========================================= */
+	/* =============LETTERSPACE CLASSES============== */
+	/* ========================================= */
+	.lspace03{
+		letter-spacing: 0.3px;
+	}
+	.lspace06{
+		letter-spacing: 0.6px;
+	}
+	.lspace1{
+		letter-spacing: 1px;
+	}
+	.lspace2{
+		letter-spacing: 2px;
+	}
+	.lspace3{
+		letter-spacing:3px;
+	}
+
+	/* ========================================= */
+	/* =============LINEHEIGHT CLASSES============== */
+	/* ========================================= */
+	.lheight15{
+		line-height: 15px !important;
+	}
+	.lheight20{
+		line-height: 20px !important;
+	}
+	.lheight22{
+		line-height: 22px !important;
+	}
+	.lheight25{
+		line-height: 25px !important;
+	}
+	.lheight30{
+		line-height: 30px !important; 
+	}
+	.lheight35{
+		line-height: 35px;
+	}
+	.lheight40{
+		line-height: 40px;
+	}
+	.lheight45{
+		line-height: 45px;
+	}
+	.lheight50{
+		line-height: 50px;
+	}
+
+
+	/* ========================================= */
+	/* =============ANIMATION CLASSES============== */
+	/* ========================================= */
+	a,
+	img,
+	button,
+	.btn,
+	a:hover,
+	img:hover,
+	button:hover,
+	.btn:hover{
+		-webkit-transition:all 0.3s linear;
+		-moz-transition:all 0.3s linear;
+		-ms-transition:all 0.3s linear;
+		transition:all 0.3s linear;
+	}
+
+	/* ========================================= */
+	/* =============CSS FOR SOCIAL ICON============== */
+	/* ========================================= */
+.social ul li i{
+    padding:12px 0px;
+    color: #FFFFFF;
+    font-size:20px;
+}
+.social ul li
+{
+    width:42px;
+    height:42px;
+    border-radius:50px;
+    background:#ed9c91;
+    text-align:center;
+    line-height:48px;
+}
+
+	/* ============================================ */
+	/* ============================================ */
+	/* ============================================ */
+
+	a
+	{
+		color: #3a3a3a;
+	}
+
+	a:focus{
+	text-decoration: none;
+	}
+
+	p{
+		color:#666;
+		font-size: 17px;
+		margin: 0 0 9px;
+		line-height: 25px;
+	}
+	body a:hover{
+		text-decoration: none;
+		cursor: pointer;
+		/*color: #00aeef !important;*/
+	}
+	/*body a:focus{
+		color:#ed9c91;
+	}*/
+	a:focus,.btn:focus,.btn:active:focus,
+	button:focus,input[type="file"]:focus, 
+	input[type="radio"]:focus, 
+	input[type="checkbox"]:focus{
+		outline: none;
+	}
+
+	.uppercase
+	{
+		text-transform: uppercase;
+	}
+
+	.dropdown-menu{
+		border-radius: 0px;
+		padding: 0;
+	}
+	.dropdown-menu li:not(:last-child){
+	border-bottom: 1px solid #e7e7e7;
+	}
+	.dropdown-menu li a{
+	padding: 10px;
+	}
+	.dropdown-menu li:hover a{
+		background: #fff;
+		color: #30baca;
+	}
+
+	/* ============================================ */
+	/* ==================CSS for  HEADER =========== */
+	/* ============================================ */
+
+
+
+/*css for top section*/
+.right-nav
+{
+	line-height: 113px;
+}
+.right-nav > li >a
+{
+		padding: 5px;
+}
+.right-nav >li > a.active,.right-nav >li > a:hover
+{
+	background-color: #00aeef;
+	padding: 5px;
+	color: #fff;
+	border-radius:6px;
+	}
+.bg-1
+{background-color: #404040;
+	padding: 10px 0px; 
+}
+.footer
+{
+	background-color: #404040;
+	padding: 30px 0px; 
+}
+.logo
+{
+	    margin-bottom: -58px;
+}
+.bg-2
+{
+	background-color: #ebebea;
+}
+.line {
+  border-top: 2px solid #DADADA;
+  /* margin-bottom: 24px; */
+  padding-top: 30px;
+}
+.bg-3
+{
+background-color: #3bd0ef;	
+
+}
+
+.we-are-rotate:after {
+  content: " ";
+  position: absolute !important;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: #00aeef;
+  display: table;
+  padding-top: 25px;
+  width: 55px;
+  margin-left: 6px;
+}
+.info-section p
+{	
+	font-size: 15px;
+}
+.details
+{
+	padding: 0px 47px;
+}
+.bg-image  {
+   margin-top: -103px;
+  width: 120px;
+  position: absolute;
+  left: 93%;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  background-color: #ebebea;
+    width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 18px
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: 0px;
+  top:45%; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 0px;
+  top: 45%;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background-color: #00aeef;
+}
+
+
+/*css for service*/
+
+/*=============================
+css for service
+==============================*/
+.services{
+	background: url(../img/Background-copy-10.png) no-repeat;
+	background-size: cover;
+	padding: 60px 0 100px;
+}
+
+.service-box {
+	background: #fff;
+	/*height: 425px;*/
+}
+.service-box .top-part{
+	background: #00aeef;
+	padding: 50px 20px 0;
+}
+.service-box .num{
+  float: left;
+  margin-right: 10px;
+  margin-top: -18px;
+  }
+.service-box .text p{
+	padding-bottom: 20px;
+}
+.service-info{
+	background: #fff;
+	padding:0 22px 30px 30px;
+}
+.logo
+{
+	  width: 140px;
+}
+.num h1{
+   line-height: initial; 
+}
+@media(max-width:992px){
+.top-head .main-head,
+.top-head .sub-head
+{
+	text-align: center !important;
+}
+.bg-image 
+{display: none;}
+/*.owl-buttons
+{
+	display: none;
+}*/
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -25px;
+  top: 29%;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -25px;
+  top: 31%;
+}
+.info-section img
+{		
+	width: 100%;
+
+}
+}
+
+@media(max-width:1090px){
+.bottom .info {
+  padding: 0 50px;
+}
+.footer .text-right
+{
+	text-align: center;
+}
+.footer img{
+	margin: 0 auto;
+	text-align: center;
+}
+.service-box .num
+{
+	float: none;
+
+}
+.service-head
+{
+	  text-align: center;
+}
+.top-part .space60
+{
+	margin-top: 30px;
+}
+.service-info
+{
+	text-align: center;
+	  padding: 40px 22px 30px 30px;
+}
+}
+@media(min-width:1024px) and (max-width: 1080px){
+	.text p
+{
+    font-size: 13px;
+
+}
+.service-info
+{
+  height: 157px !important;
+}
+
+.bg-image {
+  margin-top: -75px;
+  width: 91px;
+  position: absolute;
+  left: 93%;
+}
+}
+@media(min-width:600px) and (max-width: 800px){
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -8px;
+  top: 29%;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -5px;
+  top: 31%;
+}
+	}
+@media(min-width:1025px) and (max-width: 2100px){
+	.service-info
+{
+  height: 149px;
+}
+.logo
+{
+	  width: 175px;
+}
+}
+@media(min-width:320px) and (max-width:568px){
+	.right-nav {
+  line-height: 34px;
+}
+	.text p
+{
+    font-size: 13px;
+
+}
+
+.main-head
+{
+	  line-height: 42px;
+}
+.blockbtn
+{
+	font-size: 12px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -4px;
+  top: 14%;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  background-color: #ebebea;
+    width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  padding: 9px;
+}
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -4px;
+  top: 14%;
+}
+.blockbtn
+{
+	  padding: 13px 39px;
+}
+}
+
+
